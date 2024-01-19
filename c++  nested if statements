@@ -1,0 +1,28 @@
+<iostream>
+using namespace std;
+
+char input = 'a';
+
+int main() {
+
+	cout << "Do you prefer (w)inter or (s)ummer more?" << endl;
+	cin >> input;
+	if (input == 'w') {
+		cout << "Do you prefer (s)orts or (r)elaxing" << endl;
+		cin >> input;
+		if (input == 's')
+			cout << "You should go snowboarding!" << endl;
+		else if (input == 'r')
+			cout << "You should go ice fishing!" << endl;
+	}
+	else if (input == 's') {
+		cout << "Do you prefer (s)orts or (r)elaxing" << endl;
+		cin >> input;
+		if (input == 's')
+			cout << "You should go swimming!!" << endl;
+		else if (input == 'r')
+			cout << "You should go hang out at the beach!" << endl;
+	}
+	else
+		cout << "That was not a choice!" << endl;
+}
