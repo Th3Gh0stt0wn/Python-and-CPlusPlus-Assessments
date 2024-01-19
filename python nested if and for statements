@@ -1,0 +1,30 @@
+for i in range (4):
+    print()
+    for j in range(8):
+        print("*", end = "")
+        
+        
+print()
+        
+        
+info = (input("Do you like winter or summer more?"))
+if info == 'winter':
+    choice = (input("Do you like playing sports or relaxing?"))
+    if choice == 'sports':
+        print("you should go snowboarding!")
+    elif choice == 'relaxing':
+        print("you should go ice fishing!")
+    else:
+        print("that was not an option...")
+        
+elif info == 'summer':
+    choice = (input("Do you like playing sports or relaxing?"))
+    if choice == 'sports':
+        print("you should try swimming!")
+    elif choice == 'relaxing':
+        print("you should hang out at the beach!")
+    else:
+        print("that was not an option!")
+        
+elif info != 'Summer' or 'Winter':
+    print("I didn't ask that.")
