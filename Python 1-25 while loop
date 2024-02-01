@@ -1,0 +1,12 @@
+num = 6
+
+while num <31:
+    print(num, end = " ")
+    num +=3
+    
+print()
+
+word = "a"
+while word != "banana":
+    print("orange")
+    word = input("type in banana to quit: ")
