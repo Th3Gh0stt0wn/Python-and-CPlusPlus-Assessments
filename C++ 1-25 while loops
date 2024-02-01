@@ -1,0 +1,22 @@
+#include <iostream>
+#include <Windows.h>
+using namespace std;
+
+int num = 6;
+
+int main() {
+
+	while (num < 31) {
+		cout << num << " ";
+		num = num + 3; //num +=3
+	}
+
+	cout << "Type anything!" << endl;
+
+	string doexit = "nah";
+	while (doexit != "Banana") {
+		cin >> doexit;
+		cout << "Orange" << endl;
+		cout << "type Banana to exit" << endl;
+	}
+}
