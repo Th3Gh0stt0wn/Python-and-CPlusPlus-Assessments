@@ -1,0 +1,27 @@
+num = 6
+
+while num <31:
+    print(num, end = " ")
+    num +=3
+    
+print()
+
+word = "a"
+while word != "banana":
+    print("orange")
+    word = input("type in banana to quit: ")
+    
+print()
+
+for i in range(6):
+    for j in range(10):
+        print("$", end = "")
+    print()
+ 
+print()
+
+
+for k in range(3, 6):
+    for l in range(3):
+        print(k, end = "")
+    print()
