@@ -1,0 +1,22 @@
+#include <iostream>
+#include <Windows.h>
+using namespace std;
+
+int num = 80;
+
+int main() {
+
+	while (num > 59) {
+		cout << num << " ";
+		num = num - 5; //num +=3
+	}
+
+	cout << "";
+
+	string doexit = "nah";
+	while (doexit != "spoon") {
+		cin >> doexit;
+		cout << "Fork!" << endl;
+		cout << "type spoon to exit" << endl;
+	}
+}
