@@ -1,0 +1,12 @@
+num = 80
+
+while num >59:
+    print(num, end = " ")
+    num -=5
+    
+print()
+
+word = "a"
+while word != "spoon":
+    print("Fork!")
+    word = input("type in spoon to quit: ")
