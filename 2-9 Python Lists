@@ -1,0 +1,22 @@
+music = ["Its Golden Hour Somewhere: Lovejoy", "Tangerine: Glass Animals", "Eighth Wonder: Lemon Demon"]
+print(music)
+print()
+music.append("Labyrinth: Miracle Musical")
+print(music)
+print()
+music.remove("Tangerine: Glass Animals")
+print(music)
+print()
+music.insert(1, "Sweet Tooth: Cavetown")
+print(music)
+print()
+total = len(music)
+print("The total amount of songs:",total)
+print()
+if "Watermelon Suagr: Harry Styles" in music:
+    print("True")
+    print()
+else:
+    print("False")
+    print()
+print(music)
